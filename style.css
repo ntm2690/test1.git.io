@@ -1,0 +1,77 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.logo {
+    margin-top:20px;
+    margin-bottom: 30px;
+    width: 310px;
+    height: 122px;
+    background-image: url(ảnh/Screen\ Shot\ 2022-05-26\ at\ 21.16.16.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    position:fixed;
+    height:100%;
+    width:10%;
+    color:white;
+    background-color: black;
+    top:0;
+    left:0;
+    bottom:0;
+}
+.container{
+
+    width:100%;
+    height:100%;
+}
+.navbar-content{
+    border-bottom: 1px solid gray;
+    padding:14px 0px 11px 16px
+}
+.df{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.pa{
+    position:relative
+}
+.content{
+    padding-left:10%;
+width:80%
+}
+.dfc{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.p20{
+    padding-left: 20%;
+    padding-right:20%;
+}
+.p10{
+    padding:30px 0px;
+}
+.main-content-1{
+    background-color: #EFEFEF;
+    margin-bottom: 40px;
+}
+.img{
+    width:128px;
+    height:128px;
+
+}
+.w30{width:32%}
+
+.fwb{
+    font-weight: 700;
+    font-size: 24px;
+}
+.jcsb{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
